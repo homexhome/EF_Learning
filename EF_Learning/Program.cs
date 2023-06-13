@@ -5,6 +5,7 @@ namespace EF_Learning;
 
 class Program
 {
+    //Тестовый коммит
     static void Main(string[] args) {
         using (var db = new Data.AppContext()) {
             var userRepo = new UserRepository(db);
